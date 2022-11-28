@@ -18,6 +18,10 @@ namespace StackUsingSingleLinkList
         public Stack()
         {
             Node top;
+            public Stack()
+            {
+                top = null;
+            }
         }
     }
 }
