@@ -28,7 +28,14 @@ namespace StackUsingSingleLinkList
         }
         public void push(int element)
         {
+            Node fresh; //fresh is the new node/ new data
+            fresh = new Node(element, null);
 
+            fresh.next = top;
+            top = fresh;
+            Console.WriteLine("\n" + element + "pushed");
         }
+
+
     }
 }
