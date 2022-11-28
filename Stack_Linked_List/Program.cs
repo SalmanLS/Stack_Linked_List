@@ -17,11 +17,7 @@ namespace StackUsingSingleLinkList
         Node top;
         public Stack()
         {
-            Node top;
-            public Stack()
-            {
-                top = null;
-            }
+            
         }
     }
 }
